@@ -1,0 +1,35 @@
+
+/* task1
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: aliceblue;
+} */
+
+/* task2
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    background-color: aliceblue;
+} */
+img{
+    width: 200px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+    background-color: aliceblue;
+    /* flex-wrap: wrap; */
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+}
