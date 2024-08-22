@@ -51,3 +51,5 @@ console.log(arr2.every(item=>item ==true))
 let x = 5, y = 6;
 [x, y] = [y, x]
 console.log(`x=${x} y=${y}`)
+
+
