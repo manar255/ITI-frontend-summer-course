@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: #52589c;
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+header .user-img img{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+}
+header .user-img{
+  margin-right: 100px;
+
+}
+header .user-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+header .user-data h1{
+    margin-bottom: 3px;
+}
+header .user-data h3{
+    margin-bottom: 15px;
+}
+header .user-data p{
+   font-size: 15px;
+}
+
+
