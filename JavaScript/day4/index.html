@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Button Clicks</title>
+    
 </head>
 <body>
+
     
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <script>
+        function showAlert() {
+            alert("Welcome to my site.");
+        }
+
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = "lightblue";
+        }
+    </script>
+
 </body>
 </html>

@@ -1,12 +1,13 @@
 /*************task1***************/
 
-// alert('welcome to my site')
+alert('welcome to my site')
 
 
 
-// let name=prompt('enter your name')
+let name=prompt('enter your name')
 
-// document.write(`welcome, ${name}`)
+document.write(`welcome, ${name}`)
+
 /*************task2***************/
 // let x=prompt('enter x')
 // let y=prompt('enter y')
@@ -45,30 +46,38 @@
 
 
 /*************task4***************/
-// function track(f){
-//     if(f=="FCI")
-//     {
-//         console.log('You’re eligible to Programing tracks')
-//     }
-//     else if(f=='Engineering'){
-//         console.log('You’re eligible to Network and Embedded tracks')
-//     }
-//     else if(f=='Commerce'){
-//         console.log('You’re eligible to ERP and Social media tracks')
-//     }
-//     else{
-//         console.log('You’re eligible to SW fundamentals track')
-//     }
-// }
+function track(f){
+    // if(f=="FCI")
+    // {
+    //     console.log('You’re eligible to Programing tracks')
+    // }
+    // else if(f=='Engineering'){
+    //     console.log('You’re eligible to Network and Embedded tracks')
+    // }
+    // else if(f=='Commerce'){
+    //     console.log('You’re eligible to ERP and Social media tracks')
+    // }
+    // else{
+    //     console.log('You’re eligible to SW fundamentals track')
+    // }
+    // switch (f){
+
+    //     case "fci":
+    //         console.log('You’re eligible to Programing tracks')
+    //         break;
+    //     case "Engineering":
+
+    // }
+}
 
 
  /*************task5***************/
-// function odd(s,e){
-//     for(let i=s;i<=odd;i++)
-//     {
-//         if(i%2)console.log(i);
-//     }
-// }
+function odd(s,e){
+    for(let i=s;i<=e;i++)
+    {
+        if(i%2)console.log(i);
+    }
+}
 
 
 /*************task6***************/
