@@ -88,9 +88,8 @@ main{
 footer{
     background-color: #ffffff;
     width: 1400px;
-    height: 150px;
+    height: 100px;
     border-radius: 2px;
     position: absolute;
     bottom: 0;
-    
 }
